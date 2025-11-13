@@ -1,10 +1,12 @@
 * {
   text-align: center;
-}
-#basic {
-  font-weight: bold;
-  font-family: "Arial", "Meiryo", sans-serif;
   font-size: 20px;
+}
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+}
+#basic p {
+  font-weight: bold;
 }
 .blue {
   color: skyblue;
@@ -13,12 +15,15 @@
    color:  rgb(255, 192, 203);
 }
 h1 {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 40px;
+  font-size: 2rem;
   letter-spacing: 1.2em;
   text-shadow: 2px 2px 2px gray;
   border-bottom: solid 3px rgb(115, 115, 114);
+}
+h1 span {
+  font-size: inherit;
 }
